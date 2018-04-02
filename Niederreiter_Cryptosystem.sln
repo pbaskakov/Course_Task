@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Niederreiter_Cryptosystem", "Niederreiter_Cryptosystem\Niederreiter_Cryptosystem.pyproj", "{0C0F3243-E25C-4AD6-BD0A-6EB5C3D11AE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C0F3243-E25C-4AD6-BD0A-6EB5C3D11AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0F3243-E25C-4AD6-BD0A-6EB5C3D11AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC9D8EA6-2925-4E32-B36C-BEE6BD53AD9E}
+	EndGlobalSection
+EndGlobal
