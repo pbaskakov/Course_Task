@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Niederreiter_Cryptosystem", "Niederreiter_Cryptosystem\Niederreiter_Cryptosystem.pyproj", "{0C0F3243-E25C-4AD6-BD0A-6EB5C3D11AE8}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Niederreiter", "Niederreiter_Cryptosystem\Niederreiter.pyproj", "{0C0F3243-E25C-4AD6-BD0A-6EB5C3D11AE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
