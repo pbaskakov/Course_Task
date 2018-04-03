@@ -21,10 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Decoding.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Encrypt_Decrypt.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="KeyGen.py" />
+    <Compile Include="Generate_Matrixes.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
