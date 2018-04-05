@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Niederreiter", "Niederreiter_Cryptosystem\Niederreiter.pyproj", "{0C0F3243-E25C-4AD6-BD0A-6EB5C3D11AE8}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "McEliece", "McEliece\McEliece.pyproj", "{C33DEDE3-9462-4943-9F2D-A3DBC52173DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0C0F3243-E25C-4AD6-BD0A-6EB5C3D11AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C0F3243-E25C-4AD6-BD0A-6EB5C3D11AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33DEDE3-9462-4943-9F2D-A3DBC52173DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33DEDE3-9462-4943-9F2D-A3DBC52173DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

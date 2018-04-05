@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>0c0f3243-e25c-4ad6-bd0a-6eb5c3d11ae8</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>Generate_Matrixes.py</StartupFile>
+    <ProjectGuid>c33dede3-9462-4943-9f2d-a3dbc52173da</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>McEliece.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Niederreiter</Name>
-    <RootNamespace>Niederreiter_Cryptosystem</RootNamespace>
+    <Name>McEliece</Name>
+    <RootNamespace>McEliece</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,13 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Decoding.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Encrypt_Decrypt.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Generate_Matrixes.py" />
+    <Compile Include="McEliece.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
