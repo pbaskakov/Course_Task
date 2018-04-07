@@ -19,8 +19,8 @@ def get_P_matrix(n):
         P_matrix.append([1 if i == index else 0 for i in range(n)])
     return np.array(P_matrix, dtype='uint8')
 
-def get_gen_matrix(r, n, k):
-    H_T_list = get_check_matrix(r, n).transpose().tolist()
+def get_gen_matrix(H, r, k):
+    H_T_list = H.transpose().tolist()
     for i in range(r):
         H_T_list.pop(H_T_list.index([1 if j == i else 0 for j in range(r)]))
     P_part = np.array(H_T_list, dtype='uint8')
@@ -28,4 +28,4 @@ def get_gen_matrix(r, n, k):
     return np.hstack((E_part, P_part))
 
 if __name__ == '__main__':
-    print(get_gen_matrix(3, 7, 4))
+    pass

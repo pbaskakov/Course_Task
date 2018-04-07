@@ -22,30 +22,14 @@ def decrypt(cipher, H, P, inv_S, n):
     return plain_vectors
 
 if __name__ == '__main__':
-    print(sys.path)
-    r = 5
+    r = 3
     n = 2**r - 1
     k = 2**r - 1 - r
-    t = 1
-    H = get_check_matrix(r)
+    H = get_check_matrix(r, n)
     S = get_S_matrix(n-k)
     P = get_P_matrix(n)
-    #H = np.array([[1,1,1,0,1,0,0],
-    #              [1,1,0,1,0,1,0],
-    #              [1,0,1,1,0,0,1]], dtype='uint8')
-    #S = np.array([[1,1,1],
-    #              [0,0,1],
-    #              [0,1,0]], dtype='uint8')
-    #P = np.array([[0,0,0,0,1,0,0],
-    #              [0,0,1,0,0,0,0],
-    #              [0,0,0,0,0,0,1],
-    #              [0,0,0,1,0,0,0],
-    #              [1,0,0,0,0,0,0],
-    #              [0,1,0,0,0,0,0],
-    #              [0,0,0,0,0,1,0]], dtype='uint8')
     Hpub = np.dot(S, H) % 2
-    np.dot(Hpub, P, out=Hpub)
-    Hpub %= 2
+    Hpub = np.dot(Hpub, P) % 2
     inv_P = np.linalg.inv(P).astype('uint8') % 2
     inv_S = np.linalg.inv(S).astype('uint8') % 2
     cipher = encrypt(Hpub, n)

@@ -5,7 +5,7 @@
     <ProjectGuid>0c0f3243-e25c-4ad6-bd0a-6eb5c3d11ae8</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Generate_Matrixes.py</StartupFile>
+    <StartupFile>Encrypt_Decrypt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
